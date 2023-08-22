@@ -7,10 +7,10 @@
 Input: 3 4(ввод на разных строках)
 Output: 6
 """
-i = int(input("Введите вагон, в который сел Витя :"))
-j = int(input("Введите номер вагона, в который сел Витя :"))
+train_wagons_that_vitya_got_on = int(input("Введите вагон, в который сел Витя :"))
+number_wagons_of_vitya = int(input("Введите номер вагона, в который сел Витя :"))
 
-if i != j:
-    print(f"количество вагонов поезда {(i + j) - 1}")
+if train_wagons_that_vitya_got_on != number_wagons_of_vitya:
+    print(f"количество вагонов поезда {train_wagons_that_vitya_got_on + number_wagons_of_vitya - 1}")
 else:
     print("Без дополнительной информации определить количество вагонов невозможно")
