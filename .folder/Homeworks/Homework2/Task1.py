@@ -16,6 +16,7 @@ def two_numbers_for_katya(x,y):
                     if i * j == P and i + j == S:
                         i = int(i / 2)
                         j = int(j / 2)
+                        stop = 1
                         return i,j
             else:
                 j = 1001
